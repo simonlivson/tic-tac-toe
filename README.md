@@ -57,8 +57,15 @@ Player X wins!
 
 ## Browser version
 
-There is also a small Gradio version in `hf_space/` that runs the same win and tie checks with clickable buttons, for a Hugging Face Space.
+There is also a small Gradio version in `hf_space/` that runs the same win and tie checks with clickable buttons.
+
+**Live demo:** https://huggingface.co/spaces/SimonIL/tic-tac-toe
 
 ## More from the bootcamp
 
 All my bootcamp exercises: https://github.com/simonlivson/DI_Bootcamp
+
+## How I built this
+
+I wrote the game logic and the terminal UI myself, as a week 1 Python exercise: the board, input checks, and win/tie detection. I later added a small Gradio wrapper so the same checks can be tried in the browser in one click.
+
